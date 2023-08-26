@@ -1,0 +1,119 @@
+:root{
+    --primary--color:hsl(238, 40%, 52%);
+    --Dark-blue: hsl(212, 24%, 26%);
+--Grayish-Blue: hsl(211, 10%, 45%);
+--Light-gray: hsl(223, 19%, 93%);
+--Very-light-gray: hsl(228, 33%, 97%);
+--basic-color: hsl(0, 0%, 100%);
+}
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+.parent-del-div{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    height:180px;
+    background-color: var(--Very-light-gray);
+    padding: 22px;
+    position: fixed;
+    top: 24vh;
+    left: 38vw;
+    margin: 0 auto;
+    z-index: 100;
+  
+}
+h3{
+    opacity: 0.9;
+}
+.para p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.btn .cancel{
+    width: 120px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: var(--Dark-blue);
+    color: white;
+    opacity: 0.7;
+}
+.btn .delete{
+    width: 120px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    background-color: red;
+    opacity: 0.7;
+}
+
+@media (max-width:760px) {
+    .parent-del-div{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        height:200px;
+        background-color: var(--Very-light-gray);
+        padding: 22px;
+        position: fixed;
+        margin: 0 auto;
+        z-index: 100;
+       left: 5vw;
+    }
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .btn .cancel{
+        width: 120px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: var(--Dark-blue);
+        color: white;
+        opacity: 0.7;
+    }
+    .btn .delete{
+        width: 120px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+        background-color: red;
+        opacity: 0.7;
+        margin-left: 20px;
+    }
+    
+}

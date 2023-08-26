@@ -1,0 +1,17 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+
+}
+@media (max-width:760px) {
+    .div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    
+    }
+}
